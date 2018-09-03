@@ -1,0 +1,108 @@
+
+.tabs .tab a {
+  color: white!important;
+  background-color: #78909c!important;
+}
+
+.tabs .indicator{
+  background-color:#ffa000!important;
+}
+
+.tab a.active {
+  background-color: #9a9475!important;
+  color: white!important;
+}
+
+.tabs .tab a:hover {
+  background-color: #8c9285!important;
+  color: white!important;
+}
+
+/*[-----------------CHECKBOXES-----------------]*/
+[type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid #ffa000!important;
+  border-bottom: 2px solid #ffa000!important;
+}
+
+/*[-----------------SWITCHES-----------------]*/
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #ffc107!important;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #ffa000!important;
+}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #ffa000!important;
+}
+
+/*[-----------------RANGES-----------------]*/
+input[type=range] {
+  border-width: 0px;
+}
+
+input[type=range] + .thumb {
+  background-color: #ffa000!important;
+}
+
+input[type=range] + .thumb .value {
+  color: white!important;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: #ffa000!important;
+}
+
+input[type=range]::-moz-range-thumb {
+  background: #ffa000!important;
+}
+
+input[type=range]::-ms-thumb {
+  background: #26a69a;
+}
+
+.range-field label {
+  color: white;
+}
+
+input[type=range]:focus + label {
+  color: #ffa000!important;
+}
+
+/*[-------------TEXT-INPUTS-------------]*/
+.input-field input[type=text] {
+  border-bottom: 1px solid white!important;
+  -webkit-box-shadow: 0 1px 0 0 white!important;
+  -moz-box-shadow: 0 1px 0 0 white!important;
+  box-shadow: 0 1px 0 0 white!important;
+  color: white!important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #ffa000!important;
+  -webkit-box-shadow: 0 1px 0 0 #ffa000!important;
+  -moz-box-shadow: 0 1px 0 0 #ffa000!important;
+  box-shadow: 0 1px 0 0 #ffa000!important;
+}
+
+.input-field label {
+  color: white!important;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #ffa000!important;
+}
+
+/*[-------------OPTION INPUTS-------------]*/
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #ffa000!important;
+}
+
+.dropdown-content {
+  background-color: #78909c;
+}
+
+.input-field select:focus + label {
+  color: #ffa000!important;
+}
